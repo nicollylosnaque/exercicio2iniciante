@@ -1,7 +1,7 @@
-const nomeform = document.getElementById ("nomeform");
-const texto = document.getElementById ("texto");
+let input = document.getElementById ("nome")
 const enviar = document.getElementById ("enviar");
-const lista = document.querySelectorAll ("lista");
+const lista = document.getElementById ("lista");
+const itens = document.querySelectorAll ("li");
 
 enviar.addEventListener('click', buscar)
 
